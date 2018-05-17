@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
-        <module name="service" />
         <module name="web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="service" target="1.5" />
       <module name="web-tmp" target="1.5" />
     </bytecodeTargetLevel>
   </component>
