@@ -6,41 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c34f4ab2-e99b-48ae-8fe6-e9073ed1189f" name="Default" comment="spring">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/yuan/ngu/ssm/api/po/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/com/yuan/ngu/ssm/api/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/Tmp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/cache/RedisCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/cache/RedisClusterCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/dao/IUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/dto/BaseResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/exception/BizException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/exception/GlobalExceptionResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/quartz/BizQuartz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/util/CustomDateSerializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/util/ProtoStuffSerializerUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/util/TimeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/ValidationMessages.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/mapper/UserDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/redis.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/spring/spring-dao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/spring/spring-quartz.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/spring/spring-redis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/spring/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/spring/spring-web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c34f4ab2-e99b-48ae-8fe6-e9073ed1189f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/test.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,35 +27,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/controller/UserController.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="13" column="27" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/spring/spring-web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlobalExceptionResolver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/exception/GlobalExceptionResolver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+            <state relative-caret-position="139">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,37 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/service/impl/UserServiceImpl.java">
+      <file leaf-file-name="test.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/test.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IUserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/dao/IUserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/resources/mapper/UserDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+            <state relative-caret-position="115">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -143,6 +65,11 @@
       <find>init</find>
       <find>enti</find>
       <find>Controller</find>
+      <find>驼峰式</find>
+      <find>缓存</find>
+      <find>index</find>
+      <find>welcome</find>
+      <find>/WEB-INF/jsp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -163,7 +90,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/src/main/resources/spring/spring-quartz.xml" />
         <option value="$PROJECT_DIR$/web/src/main/resources/spring/spring-service.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/resources/spring/spring-web.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/util/TimeUtils.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/cache/RedisClusterCache.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/cache/RedisCache.java" />
@@ -176,11 +102,16 @@
         <option value="$PROJECT_DIR$/web/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/quartz/BizQuartz.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/spring/spring-redis.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/controller/UserController.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/exception/GlobalExceptionResolver.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/dao/IUserMapper.java" />
         <option value="$PROJECT_DIR$/web/src/main/resources/mapper/UserDao.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/spring/spring-web.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/controller/TestController.java" />
       </list>
     </option>
   </component>
@@ -223,10 +154,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="width" value="1943" />
-    <option name="height" value="1031" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="width" value="1944" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -286,7 +217,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ngu" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -294,7 +225,7 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -302,20 +233,20 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="GlobalExceptionResolver&#9;FILE&#9;file://D:/develop/workspace/ssm/web/src/main/java/com/yuan/ngu/exception/GlobalExceptionResolver.java" />
+    <property name="SearchEverywhereHistoryKey" value="User&#9;FILE&#9;file://D:/develop/workspace/ssm/web/src/main/java/com/yuan/ngu/dao/IUserMapper.java&#10;GlobalExceptionResolver&#9;FILE&#9;file://D:/develop/workspace/ssm/web/src/main/java/com/yuan/ngu/exception/GlobalExceptionResolver.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -327,12 +258,16 @@
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\develop\workspace\ssm\web\src\main\webapp\WEB-INF\jsp" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yuan.ngu.ssm.api.po" />
       <recent name="com.yuan.ngu.dto" />
       <recent name="com.yuan.ngu.quartz" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\develop\workspace\ssm\web\src\main\webapp" />
       <recent name="D:\develop\workspace\ssm\web\src\main\java\com\yuan\ngu" />
       <recent name="D:\develop\workspace\ssm\web\src\main\resources" />
     </key>
@@ -476,6 +411,8 @@
       <option name="presentableId" value="Default" />
       <updated>1526519763795</updated>
       <workItem from="1526519766835" duration="18275000" />
+      <workItem from="1526569285328" duration="2050000" />
+      <workItem from="1526599664873" duration="1572000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1526521057650</created>
@@ -491,14 +428,21 @@
       <option name="project" value="LOCAL" />
       <updated>1526527954046</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="spring">
+      <created>1526551968246</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1526551968246</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18275000" />
+    <option name="totallyTimeSpent" value="23685000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="0" width="1295" height="687" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="6" />
@@ -512,34 +456,34 @@
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.92775667" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.3576779" />
       <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.3269962" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32637572" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.3688213" />
       <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.27324477" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.4524715" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.33225545" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.34357315" />
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32958803" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32889733" />
       <window_info id="Designer" order="0" />
       <window_info anchor="right" id="Palette" order="6" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.3688213" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.27324477" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="right" id="Commander" order="7" weight="0.4" />
@@ -551,23 +495,23 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.3269962" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32637572" />
       <window_info anchor="bottom" id="TODO" order="14" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.34357315" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="6" />
       <window_info anchor="right" id="Maven Projects" order="0" weight="0.3063864" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.33225545" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32958803" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Debug" order="11" visible="true" weight="0.92775667" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.3576779" />
       <window_info anchor="right" id="Bean Validation" order="5" />
     </layout-to-restore>
   </component>
@@ -580,21 +524,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Merge branch 'master' of github.com:zhangyinyuan/ssm&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:zhangyinyuan/ssm&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
+    <MESSAGE value="spring" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-tmp/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web-tmp/pom.xml" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -602,13 +541,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/pom.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="391">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/service/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-tmp/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/pom.xml" />
     <entry file="file://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -625,14 +584,8 @@
           <settings layout="Hierarchic Group" zoom="1.0" x="27.0" y="15.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -643,36 +596,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="38" column="17" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$MAVEN_REPOSITORY$/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.2.0.RELEASE/spring-webmvc-4.2.0.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mapper/GoodsDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mapper/OrderDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mapper/GoodsDao.xml" />
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mapper/OrderDao.xml" />
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/Tmp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
         </state>
       </provider>
     </entry>
@@ -684,9 +619,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/log4j.properties">
@@ -724,30 +656,9 @@
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/dto/BaseResult.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/entity/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/entity/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/yuan/ngu/ssm/api/po/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/entity/Goods.java" />
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/entity/Order.java" />
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/entity/User.java" />
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -764,8 +675,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="69">
+          <caret line="3" column="65" lean-forward="true" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -783,9 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,39 +714,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="40" column="74" selection-start-line="40" selection-start-column="74" selection-end-line="40" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/spring/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/exception/GlobalExceptionResolver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -846,28 +725,98 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/dao/IUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/mapper/UserDao.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/dao/IUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0-sources.jar!/org/mybatis/spring/mapper/MapperScannerConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="230" column="14" selection-start-line="230" selection-start-column="14" selection-end-line="230" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="38" column="67" selection-start-line="38" selection-start-column="67" selection-end-line="38" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/yuan/ngu/ssm/api/po/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-489">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/spring/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/jsp/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/yuan/ngu/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

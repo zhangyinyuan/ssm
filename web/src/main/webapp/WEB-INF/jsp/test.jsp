@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2>Hello Web</h2>
+<h2>${result}</h2>
 </body>
 </html>

@@ -18,7 +18,7 @@
     <servlet-mapping>
         <servlet-name>spring-dispatcher</servlet-name>
         <!--/只能匹配到不带后缀的请求，如/login-->
-        <!--/*可以匹配到所有,如/index.jsp;/index-->
+        <!--/*可以匹配到所有,如/test.jsp;/index-->
         <!--这里只负责接口请求-->
         <url-pattern>/</url-pattern>
     </servlet-mapping>
