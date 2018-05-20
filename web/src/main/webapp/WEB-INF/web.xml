@@ -4,6 +4,17 @@
 	http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
+    <!--支持REST请求的 PUT 和 DELETE
+    RESTfull 请求有:增(POST),删(DELETE),改(PUT),查(GET)
+    -->
+    <filter>
+        <filter-name>HiddenHttpMethodFilter</filter-name>
+        <filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>HiddenHttpMethodFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
     <!--配置DispatcherServlet -->
     <servlet>
         <servlet-name>spring-dispatcher</servlet-name>

@@ -21,6 +21,7 @@
     	1、自动注册DefaultAnnotationHandlerMapping,AnnotationMethodHandlerAdapter
     	2、提供一系列:数据绑定,数字和日期的format,@NumberFormat,@DataTimeFormat,xml,json默认读写支持
     -->
+    <!--如果使用了mvc:default-servlet-handler支持访问webapp下的静态资源,那么需要再加mvc:default-servlet-handler,要不然,会导致RequestMapping失效-->
     <mvc:annotation-driven/>
 
     <!--静态资源默认servlet配置
