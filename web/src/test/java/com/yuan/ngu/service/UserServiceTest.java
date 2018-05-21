@@ -10,9 +10,9 @@ import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.Date;
 import java.util.List;
-
-import static org.junit.Assert.*;
+import java.util.Random;
 
 /**
  * 测试事务的传播行为 和 UserService
@@ -24,6 +24,7 @@ import static org.junit.Assert.*;
  * 5、PROPAGATION_NOT_SUPPORTED：以非事务方式执行操作，如果当前存在事务，就把当前事务挂起。
  * 6、PROPAGATION_NEVER：以非事务方式执行，如果当前存在事务，则抛出异常。
  * 7、PROPAGATION_NESTED：如果当前存在事务，则在嵌套事务内执行。如果当前没有事务，则执行与PROPAGATION_REQUIRED类似的操作。
+ * 一个关键:数据回滚的前提是开启了事务,如果没有开启事务,无从谈起回滚
  */
 public class UserServiceTest extends SpringBaseTest {
 
@@ -31,12 +32,38 @@ public class UserServiceTest extends SpringBaseTest {
     private IUserService userService;
 
     @Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.DEFAULT, rollbackFor = Exception.class)
-    @Rollback(false)
     @Test
     public void getUserList() {
         List<User> userList = userService.getUserList(0, 10);
         System.err.println(">>>>>>>>>>>>>>>> userList = " + JSONObject.toJSON(userList));
     }
 
+    @Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.DEFAULT, rollbackFor = Exception.class)
+    @Test
+    public void getUser() {
+        User user = userService.getUser(1000);
+        System.err.println(">>>>>>>>>>>>>>>> user = " + JSONObject.toJSON(user));
+
+
+    }
+
+
+    @Test
+    public void addUserTest() {
+        User user = new User();
+        user.setUserName("張三");
+        user.setUserPhone(17693661916L);
+        user.setScore(new Random().nextInt(100) + 1);
+        user.setCreateTime(new Date());
+        userService.inserUser(user);
+    }
+
+    @Test
+    public void updateUserTest() {
+        User user = new User();
+        user.setUserId(1000);
+        user.setUserName("999");
+        userService.updateUser(user);
+    }
 
 }
